@@ -135,6 +135,9 @@
     <Compile Include="Utils\DataServiceResponse.cs" />
     <Compile Include="Utils\HttpClientServiceError.cs" />
     <Compile Include="Utils\HttpClientServiceResponse.cs" />
+    <Compile Include="ViewModel\AsyncViewModelBase.cs" />
+    <Compile Include="ViewModel\UserDetailViewModel.cs" />
+    <Compile Include="ViewModel\UserOverviewViewModel.cs" />
     <EmbeddedResource Include="Properties\RandomUser.Core.rd.xml" />
   </ItemGroup>
   <ItemGroup />
