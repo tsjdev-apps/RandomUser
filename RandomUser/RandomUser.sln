@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomUser.Core", "RandomUser.Core\RandomUser.Core.csproj", "{47ABC1C2-5264-4A54-B30B-F4C35B9E3649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomUser.Windows", "RandomUser.Windows\RandomUser.Windows.csproj", "{9E33D086-CCA6-425E-AD80-F4B062C4252F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,26 @@ Global
 		{47ABC1C2-5264-4A54-B30B-F4C35B9E3649}.Release|x64.Build.0 = Release|x64
 		{47ABC1C2-5264-4A54-B30B-F4C35B9E3649}.Release|x86.ActiveCfg = Release|x86
 		{47ABC1C2-5264-4A54-B30B-F4C35B9E3649}.Release|x86.Build.0 = Release|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|ARM.Build.0 = Debug|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x64.ActiveCfg = Debug|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x64.Build.0 = Debug|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x64.Deploy.0 = Debug|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x86.ActiveCfg = Debug|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x86.Build.0 = Debug|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Debug|x86.Deploy.0 = Debug|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|Any CPU.ActiveCfg = Release|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|ARM.ActiveCfg = Release|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|ARM.Build.0 = Release|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|ARM.Deploy.0 = Release|ARM
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x64.ActiveCfg = Release|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x64.Build.0 = Release|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x64.Deploy.0 = Release|x64
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x86.ActiveCfg = Release|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x86.Build.0 = Release|x86
+		{9E33D086-CCA6-425E-AD80-F4B062C4252F}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
