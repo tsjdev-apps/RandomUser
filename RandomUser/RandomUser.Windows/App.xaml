@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:RandomUser.Windows"
     xmlns:init="using:RandomUser.Windows.Init"
+    xmlns:converter="using:RandomUser.Windows.Converter"
     RequestedTheme="Light">
 
     <Application.Resources>
@@ -11,8 +12,13 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Style/ExplicitStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-            
+
             <init:BootStrapper x:Key="BootStrapper"/>
+
+            <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+            <converter:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+            <converter:UserToImagePathConverter x:Key="UserToImagePathConverter"/>
+
         </ResourceDictionary>
     </Application.Resources>
 
