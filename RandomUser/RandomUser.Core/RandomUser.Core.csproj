@@ -115,6 +115,9 @@
     <Compile Include="DTO\Picture.cs" />
     <Compile Include="DTO\Result.cs" />
     <Compile Include="DTO\RootObject.cs" />
+    <Compile Include="ExtensionMethods\CollectionExtensions.cs" />
+    <Compile Include="ExtensionMethods\ObjectExtensions.cs" />
+    <Compile Include="ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\RandomUser.Core.rd.xml" />
   </ItemGroup>
