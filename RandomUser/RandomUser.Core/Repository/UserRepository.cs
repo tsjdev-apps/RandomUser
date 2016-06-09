@@ -36,7 +36,7 @@ namespace RandomUser.Core.Repository
             if (!response.IsSuccess)
                 throw new DataNotAvailableException();
 
-            _allUsers = response.IsSuccess ? response.Response : Enumerable.Empty<User>();
+            _allUsers = response.IsSuccess ? response.Response.OrderBy(user => user.FullName) : Enumerable.Empty<User>();
             _currentUsers = new ObservableCollection<User>(_allUsers);
 
             return _currentUsers;
